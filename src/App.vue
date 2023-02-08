@@ -5,7 +5,7 @@ import { SiteFooter, SiteNavbar } from "./components/layout";
 
 <template>
   <site-navbar />
-  <main>
+  <main class="bg-gray-700 text-gray-200">
     <router-view />
   </main>
   <site-footer />
