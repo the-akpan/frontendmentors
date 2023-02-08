@@ -4,9 +4,11 @@ import { SiteFooter, SiteNavbar } from "./components/layout";
 </script>
 
 <template>
-  <site-navbar />
-  <main class="bg-gray-700 text-gray-200">
-    <router-view />
-  </main>
-  <site-footer />
+  <section class="font-mono min-h-screen">
+    <site-navbar />
+    <main>
+      <router-view />
+    </main>
+    <site-footer />
+  </section>
 </template>
